@@ -34,7 +34,14 @@
 }
 
 .notice-area{
-    background-color: #71d1c6;
+    /*background-color: #71d1c6;*/
+    background-image: url("/img/bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     box-shadow: 1px 1px 5px 0 rgba(26,26,67,.05), 39px 62.5px 125px -25px rgba(50,50,93,.5), 23.4px 37.5px 75px -37.5px rgba(0,0,0,.6);
-    height: 300px;
+    height: 600px;
+}
+
+.notice-area h3,h2,h1,h4,h5 {
+    text-align: center;
 }
