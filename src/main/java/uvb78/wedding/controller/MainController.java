@@ -15,4 +15,10 @@ public class MainController {
     public String welcome(){
         return "welcome";
     }
+
+    @RequestMapping(value = "/myshow",method = RequestMethod.GET)
+    public String myshow(){
+        return "myshow";
+    }
+
 }
