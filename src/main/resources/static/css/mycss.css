@@ -45,3 +45,20 @@
 .notice-area h3,h2,h1,h4,h5 {
     text-align: center;
 }
+
+.mywords-area{
+    /*background-color: #71d1c6;*/
+    background-image: url("/img/mywords-bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mywords-area h1{
+    text-space: 2px;
+    color: #32dbee;
+}
+
+.mywords-area p{
+    text-space: 2px;
+    color: #27ee77;
+}
