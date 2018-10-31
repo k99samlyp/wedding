@@ -24,18 +24,19 @@ public class MainController {
     @ResponseBody
     public String testRespo(@RequestHeader Object o1,@RequestHeader Object o2,@RequestParam Object attr){
 
-        System.out.println(o1.toString());
-        System.out.println(o2.toString());
-        System.out.println(attr.toString());
-
-
-
+        System.out.println("request head o1 = " + o1.toString());
+        System.out.println("request head o2 = " + o2.toString());
+        System.out.println("request param attr = " + attr.toString());
+        //System.out.println(reqb.toString());
         return "get";
     }
 
     @PostMapping("/hello")
     @ResponseBody
-    public String testRespo1(){
+    public String testRespo1(@RequestHeader Object o1,@RequestHeader Object o2,@RequestParam Object attr){
+        System.out.println("request head o1 = " + o1.toString());
+        System.out.println("request head o2 = " + o2.toString());
+        System.out.println("request param attr = " + attr.toString());
         return "post";
     }
 
